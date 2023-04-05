@@ -191,9 +191,6 @@ def experiences():
     return render_template("experiences.html")
     #return redirect("/404")
 
-@app.route("/digi")
-def digi():
-    return render_template("digital-marketing.html")
 #--------------------------------------------------------
 
 # @app.route("/404/")
@@ -669,7 +666,7 @@ def digitalSolution():
         # mail_viwer(email,mail_msg)
         #print("mailed to user.")
 
-    return render_template("digital-marketing.html")
+    return render_template("digital-solution.html")
 
 
 # --------------------------------------------------------------------------------
