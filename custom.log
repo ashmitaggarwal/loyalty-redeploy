@@ -1,0 +1,83 @@
+2023-03-17 10:31:42 INFO: This is an info message
+2023-03-17 10:43:14 INFO: Name :  None, Phone: None, Email: test@gmail.com, Message: None 
+2023-03-17 10:56:49 INFO: Name :  Raushan, Phone: 8010605020, Email: raushan@gmail.com, Message: None 
+2023-03-17 11:15:33 INFO: Name :  Some Name, Phone: 1231231234, Email: name@gmail.com, Message: This is test message 
+2023-03-17 11:19:24 INFO: Name :  testnamde, Phone: 9066533887, Email: hjfhgjgj@fmail.com, Message: test message 
+2023-03-18 09:02:46 INFO: Name :  Test, Phone: 1234567890, Email: Test@gmail, Message: Test Message 
+2023-03-18 09:47:51 INFO: This is from sticky form
+2023-03-18 09:47:51 INFO: Name :  this data, Phone: 1234567890, Email: test@gmail.com, Message: fdfdf 
+2023-03-18 09:56:05 INFO: This is from quote form
+2023-03-18 10:07:37 INFO: This is from quote form
+2023-03-18 10:07:37 INFO: I could read all the form data
+2023-03-18 10:07:37 INFO: This is from quote form
+2023-03-18 10:07:37 INFO: First Name :  First Name, Last Name :  Last Name, Phone: 1234567089, Work Email: abcd@gmail.com, Company: Some Name, Message: Some requirement 
+2023-03-18 10:09:43 INFO: This is from sticky form
+2023-03-18 10:09:43 INFO: Name :  Sticky form, Phone: 1234567890, Email: Data@gmail.com, Message: sticky form test 
+2023-03-18 10:35:02 INFO: This is from quote form
+2023-03-18 10:35:02 INFO: I could read all the form data
+2023-03-18 10:35:02 INFO: This is from quote form
+2023-03-18 10:35:02 INFO: First Name :  Rahul, Last Name :  Jha, Phone: 9011233884, Work Email: test@gmail.com, Company: Thinking, Message: You tell me 
+2023-03-18 11:01:00 INFO: This is from quote form
+2023-03-18 11:01:00 INFO: I could read all the form data
+2023-03-18 11:01:00 INFO: This is from quote form
+2023-03-18 11:01:00 INFO: First Name :  some name, Last Name :  last, Phone: 1234567890, Work Email: work@mail.com, Company: Thinking, Message: Something 
+2023-03-18 11:01:43 INFO: This is from sticky form
+2023-03-18 11:01:43 INFO: Name :  sticky, Phone: 1234567890, Email: s@g.com, Message: dgdfgdg 
+2023-03-18 11:06:34 INFO: This is from sticky form
+2023-03-18 11:06:34 INFO: Name :  test, Phone: 1234567890, Email: test@last.com, Message: hchchh 
+2023-03-18 11:07:12 INFO: This is from quote form
+2023-03-18 11:07:12 INFO: I could read all the form data
+2023-03-18 11:07:12 INFO: This is from quote form
+2023-03-18 11:07:12 INFO: First Name :  Quote, Last Name :  Name, Phone: 123456, Work Email: work@gmail.com, Company: company, Message: sjfsfsfhsfjsdffs 
+2023-03-18 11:15:20 INFO: This is from quote form
+2023-03-18 11:15:20 INFO: I could read all the form data
+2023-03-18 11:15:20 INFO: This is from quote form
+2023-03-18 11:15:20 INFO: First Name :  gjgjgj, Last Name :  gjgjgjg, Phone: 1414324324, Work Email: fjgjgj@jkjhvj.com, Company: vfhfhfh, Message: gjgjghjhj 
+2023-03-18 11:20:43 INFO: This is from quote form
+2023-03-18 11:20:43 INFO: I could read all the form data
+2023-03-18 11:20:43 INFO: This is from quote form
+2023-03-18 11:20:43 INFO: First Name :  hjgjhgj, Last Name :  jgjgj, Phone: 675765757, Work Email: fdsfrsfs@fsgf.com, Company: fswrfwerfw, Message: fsfsfsdf 
+2023-03-19 05:37:57 INFO: This is from quote form
+2023-03-19 05:37:57 INFO: I could read all the form data
+2023-03-19 05:37:57 INFO: This is from quote form
+2023-03-19 05:37:57 INFO: First Name :  Shoaib, Last Name :  Nawaz, Phone: 8802065822, Work Email: shoaib@loyaltyfox.com, Company: LF, Message: test 
+2023-03-20 04:24:41 INFO: This is from quote form
+2023-03-20 04:24:41 INFO: I could read all the form data
+2023-03-20 04:24:41 INFO: This is from quote form
+2023-03-20 04:24:41 INFO: First Name :  Rahul , Last Name :  Sharma, Phone: 8287661777, Work Email: rahulsharmafox32@gmail.com, Company: Loyalty Fox, Message: Testing  
+2023-03-20 04:25:05 INFO: This is from sticky form
+2023-03-20 04:25:05 INFO: Name :  Anmol Goswami, Phone: 8287661777 , Email: anmolgoswami007@gmail.com, Message: Testing 
+2023-03-20 11:57:12 INFO: This is from sticky form
+2023-03-20 11:57:12 INFO: Name :  rahulsharmafox32, Phone: 8287661777 , Email: rahulsharmafox32@gmail.com, Message: Testing - Conv 
+2023-03-22 04:50:17 INFO: This is from sticky form
+2023-03-22 04:50:17 INFO: Name :  Rahul Sharma, Phone: 8287661777 , Email: rahulsharmafox32@gmail.com, Message: Testing  
+2023-03-23 04:55:32 INFO: This is from quote form
+2023-03-23 04:55:32 INFO: I could read all the form data
+2023-03-23 04:55:32 INFO: This is from quote form
+2023-03-23 04:55:32 INFO: First Name :  Ashmit, Last Name :  Aggarwal, Phone: +919718090670, Work Email: ashmitaggarwal@live.com, Company: Test, Message: test 
+2023-03-23 12:29:47 INFO: This is from sticky form
+2023-03-23 12:29:47 INFO: Name :  Dnyanoba, Phone: 8082122156, Email: dalashe@gannett.com, Message: required discount or coupons  for Reachlocal Employee at Mumbai any offer so please share with us 
+2023-03-23 12:30:01 INFO: This is from sticky form
+2023-03-23 12:30:01 INFO: Name :  Dnyanoba, Phone: 8082122156, Email: dalashe@gannett.com, Message: required discount or coupons  for Reachlocal Employee at Mumbai any offer so please share with us 
+2023-03-24 05:42:09 INFO: This is from quote form
+2023-03-24 05:42:09 INFO: I could read all the form data
+2023-03-24 05:42:09 INFO: This is from quote form
+2023-03-24 05:42:09 INFO: First Name :  Rahul , Last Name :  Sharma, Phone: 8287661777, Work Email: rahulsharmafox32@gmail.com, Company: Loyalty Fox, Message: Testing  
+2023-03-24 05:42:30 INFO: This is from sticky form
+2023-03-24 05:42:30 INFO: Name :  Rahul Sharma, Phone: 8287661777 , Email: rahulsharmafox32@gmail.com, Message: Testing - 2 
+2023-03-29 16:32:50 INFO: This is from quote form
+2023-03-29 16:32:50 INFO: I could read all the form data
+2023-03-29 16:32:50 INFO: This is from quote form
+2023-03-29 16:32:50 INFO: First Name :  David, Last Name :  Varte, Phone: 9886088896, Work Email: david@wetrade.app, Company: WETRADE TECHNOLOGY PRIVATE LIMITED, Message: Reward Integration / Parnership 
+2023-03-30 06:40:40 INFO: This is from quote form
+2023-03-30 06:40:40 INFO: I could read all the form data
+2023-03-30 06:40:40 INFO: This is from quote form
+2023-03-30 06:40:40 INFO: First Name :  Ashmit, Last Name :  Aggarwal, Phone: +919718090670, Work Email: ashmitaggarwal@live.com, Company: test, Message: test 
+2023-03-30 10:52:29 INFO: This is from quote form
+2023-03-30 10:52:29 INFO: I could read all the form data
+2023-03-30 10:52:29 INFO: This is from quote form
+2023-03-30 10:52:29 INFO: First Name :  test, Last Name :  hj, Phone: 55555555, Work Email: sqmnn@gmail.com, Company: xyz, Message: sj 
+2023-03-30 10:52:55 INFO: This is from quote form
+2023-03-30 10:52:55 INFO: I could read all the form data
+2023-03-30 10:52:55 INFO: This is from quote form
+2023-03-30 10:52:55 INFO: First Name :  test, Last Name :  hj, Phone: 55555555, Work Email: sqmnn@gmail.com, Company: xyz, Message: sj 
