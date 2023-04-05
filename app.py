@@ -192,7 +192,7 @@ def experiences():
     #return redirect("/404")
 
 @app.route("/digi")
-def ourteam():
+def digi():
     return render_template("digital-marketing.html")
 #--------------------------------------------------------
 
@@ -575,7 +575,7 @@ def gifts():
 # --------------------------------------------------------------------------------
 @app.route("/digital-solution/", methods=["GET","POST"])
 @app.route("/digital-solution", methods=["GET","POST"])
-def gifts():
+def digitalSolution():
     if request.method == "POST":
         # try
         mail_msg = ""
