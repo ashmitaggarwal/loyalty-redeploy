@@ -198,10 +198,6 @@ def experiences():
 def func_404():
     return render_template("404.html")
 
-@app.errorhandler(404)
-def not_found(e):
-    return redirect("/404")
-
 
 #--------------------------------------------------------
 
@@ -833,6 +829,11 @@ def sitemap():
     # return render_template("sitemap.xml")
 
 # --------------------------------------------------------------------------
+
+@app.errorhandler(404)
+def not_found(e):
+    return redirect("/404")
+
 
 
 if __name__ == "__main__":
