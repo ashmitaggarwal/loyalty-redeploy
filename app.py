@@ -40,11 +40,11 @@ login_manager.init_app(app)
 
 app.config.update(
     DEBUG=True,
-    
+
     # for actual code running on AWS
     MAIL_PORT = 587,
     MAIL_USE_TLS = True,
-   
+
     MAIL_SERVER = "email-smtp.ap-south-1.amazonaws.com",
     MAIL_USERNAME = "AKIAZXXKXWLK4PLL4OHQ",
     MAIL_PASSWORD = "BDl2EYN45O31YT2+n2o1P+RQ8A7dtn6i0GZFXWVqldQB"
@@ -171,7 +171,7 @@ def ourteam():
 @app.route("/navbar")
 def navbar():
     return render_template("navbar.html")
-    
+
 #--------------------------------------------------------
 
 
@@ -216,12 +216,12 @@ def rewards():
         phone = request.form.get("phone")
         email = request.form.get("email")
         note = request.form.get("note")
-                                          
+
         # mail_msg = """
         # Response from 'Apply for Gift Vouchers': \n
         # Name : """ + str(name) + """
-        # Phone : """ + str(phone) + """ 
-        # Email ID : """ + str(email) + """ 
+        # Phone : """ + str(phone) + """
+        # Email ID : """ + str(email) + """
         # Any Note : """ + str(note) + """ \n
         # """
         # print(mail_msg)
@@ -245,8 +245,8 @@ def rewards():
         mail_msg = """
         Response from 'Apply for Gift Vouchers': \n
         Name : """ + str(name) + """
-        Phone : """ + str(phone) + """ 
-        Email ID : """ + str(email) + """ 
+        Phone : """ + str(phone) + """
+        Email ID : """ + str(email) + """
         Any Note : """ + str(note) + """ \n
         """
 
@@ -266,7 +266,7 @@ def rewards():
 
         # mail_company(mail_msg)
         print("mailed to loyality fox..")
-        
+
 
         #mail the the person whom want to be contacted
         msg_viewer = Message(
@@ -282,7 +282,7 @@ def rewards():
         # mail_viwer(email,mail_msg)
         print("mailed to user.")
         flash("Thank you for your interest, we'll contact you soon. For any other query, you can call us on +91-8448859948 or write to us on info@loyaltyfox.com. ","success")
-    
+
     return render_template("rewards.html")
     # return redirect(frontend_url)
 
@@ -307,13 +307,13 @@ def contact():
         email = request.form.get("email")
         company = request.form.get("company")
         note = request.form.get("note")
-                                          
+
         # mail_msg = """
         # Response from Contact Us: \n
         # Name : """ + str(name) + """
-        # Phone : """ + str(phone) + """ 
+        # Phone : """ + str(phone) + """
         # Email ID : """ + str(email) + """
-        # Company : """ + str(company) + """ 
+        # Company : """ + str(company) + """
         # Any Note : """ + str(note) + """ \n
         # """
         # print(mail_msg)
@@ -337,9 +337,9 @@ def contact():
         mail_msg = """
         Response from Contact Us: \n
         Name : """ + str(name) + """
-        Phone : """ + str(phone) + """ 
+        Phone : """ + str(phone) + """
         Email ID : """ + str(email) + """
-        Company : """ + str(company) + """ 
+        Company : """ + str(company) + """
         Any Note : """ + str(note) + """ \n
         """
 
@@ -359,7 +359,7 @@ def contact():
 
         # mail_company(mail_msg)
         print("mailed to loyality fox..")
-        
+
 
         #mail the the person whom want to be contacted
         msg_viewer = Message(
@@ -375,7 +375,7 @@ def contact():
         # mail_viwer(email,mail_msg)
         print("mailed to user.")
         flash("Thank you for your interest, we'll contact you soon. For any other query, you can call us on +91-8448859948 or write to us on info@loyaltyfox.com. ","success")
-    
+
     return render_template("contactus.html")
     # return redirect(frontend_url)
 
@@ -385,7 +385,7 @@ def contact():
         # print(err_msg)
         # flash(err_msg,"error")
         # return redirect("/contactUS")
-   
+
 # ---------------------------------------------------------------------------------
 
 
@@ -400,13 +400,13 @@ def ppc():
         phone = request.form.get("phone")
         email = request.form.get("email")
         note = request.form.get("message")
-                                          
+
         # mail_msg = """
         # Response from Contact Us: \n
         # Name : """ + str(name) + """
-        # Phone : """ + str(phone) + """ 
+        # Phone : """ + str(phone) + """
         # Email ID : """ + str(email) + """
-        # Company : """ + str(company) + """ 
+        # Company : """ + str(company) + """
         # Any Note : """ + str(note) + """ \n
         # """
         # print(mail_msg)
@@ -430,8 +430,8 @@ def ppc():
         mail_msg = """
         Response from PPC-channel-loyalty-program landing page: \n
         Name : """ + str(name) + """
-        Phone : """ + str(phone) + """ 
-        Email ID : """ + str(email) + """ 
+        Phone : """ + str(phone) + """
+        Email ID : """ + str(email) + """
         Any Note : """ + str(note) + """ \n
         """
 
@@ -451,7 +451,7 @@ def ppc():
 
         # mail_company(mail_msg)
         print("mailed to loyality fox..")
-        
+
 
         #mail the the person whom want to be contacted
         msg_viewer = Message(
@@ -467,7 +467,7 @@ def ppc():
         # mail_viwer(email,mail_msg)
         print("mailed to user.")
         flash("Thank you for your interest, we'll contact you soon. For any other query, you can call us on +91-8448859948 or write to us on info@loyaltyfox.com. ","success")
-    
+
     return render_template("ppc-channel.html")
 
 
@@ -489,8 +489,8 @@ def gifts():
             mail_msg = """
                     Response from Gift-vouchers landing page: \n
                     Name : """ + str(name) + """
-                    Phone : """ + str(phone) + """ 
-                    Email ID : """ + str(email) + """ 
+                    Phone : """ + str(phone) + """
+                    Email ID : """ + str(email) + """
                     Any Note : """ + str(note) + """ \n
                     """
             print(mail_msg)
@@ -571,7 +571,106 @@ def gifts():
 
 
 # --------------------------------------------------------------------------------
+@app.route("/digital-solution/", methods=["GET","POST"])
+@app.route("/digital-solution", methods=["GET","POST"])
+def gifts():
+    if request.method == "POST":
+        # try
+        mail_msg = ""
+        if 'sticky_form' in request.form:
+            name = request.form.get("name")
+            # name = request.form["name"]
+            phone = request.form.get("phone")
+            email = request.form.get("email")
+            note = request.form.get("message")
+            logging.info("This is from sticky form")
+            logging.info('Name :  %s, Phone: %s, Email: %s, Message: %s ', name, phone, email, note)
 
+            mail_msg = """
+                    Response from Digital Solution landing page: \n
+                    Name : """ + str(name) + """
+                    Phone : """ + str(phone) + """
+                    Email ID : """ + str(email) + """
+                    Any Note : """ + str(note) + """ \n
+                    """
+            print(mail_msg)
+            session['sticky_form'] = True
+            session['quote_form'] = False
+            flash("Thank you for your interest, we'll contact you soon. For any other query, you can call us on +91-8448859948 or write to us on                    info@loyaltyfox.com. ","success")
+        if 'quote_form' in request.form:
+            logging.info("This is from quote form")
+            first_name = request.form['first_name']
+            last_name = request.form['last_name']
+            mobile_number = request.form['mobile_number']
+            work_email = request.form['work_email']
+            company_name = request.form['company_name']
+            requirement = request.form['requirement']
+
+            logging.info("I could read all the form data")
+            full_name = str(first_name) + ' ' + str(last_name)
+            mail_msg = """
+            Response from Contact Us: \n
+            Name : """ + str(full_name) + """
+            Phone : """ + str(mobile_number) + """
+            Work Email ID : """ + str(work_email) + """
+            Company : """ + str(company_name) + """
+            Any Note : """ + str(requirement) + """ \n
+            # """
+            print(mail_msg)
+            logging.info("This is from quote form")
+            logging.info('First Name :  %s, Last Name :  %s, Phone: %s, Work Email: %s, Company: %s, Message: %s ',
+                         first_name,last_name, mobile_number, work_email, company_name, requirement)
+            session['sticky_form'] = False
+            session['quote_form'] = True
+            flash("Thank you for your interest, we'll contact you soon.", "success")
+
+            # if no entry in the form
+            # if(not name or not phone or not email or not note):
+            #     err_msg = "Give all the inputs"
+            #     print(err_msg)
+            #     flash(err_msg,"error")
+            #     return redirect("/contactUS")
+
+            # check whether phoneNO is 10 digits
+            # if(len(str(phone))!=10 or str(phone)[0]=='0'):
+            #     err_msg = "Enter 10 digits Phone no."
+            #     print(err_msg)
+            #     flash(err_msg,"error")
+            #     return redirect("/contactUS")
+
+        print("\n  Mailing..........")
+        msg_company = Message(
+            # sender = ("Test","testing0963@gmail.com"),
+            sender=("Website", "info@loyaltyfox.com"),
+            recipients=["info@loyaltyfox.com", "testing0963@gmail.com"],
+            body=mail_msg
+            # subject = "ContactUS form"
+        )
+        # msg.body = "Hey avi, get lost"
+        msg_company.subject = "Loyalty Fox Website | Digital Solutions Response"
+        mail.send(msg_company)
+
+        # mail_company(mail_msg)
+        print("mailed to loyality fox..")
+
+        # mail the the person whom want to be contacted
+        #msg_viewer = Message(
+        #    sender=("Website", "info@loyaltyfox.com"),
+        #    recipients=[email],
+        #    body=mail_msg
+        #    # subject = "ContactUS form"
+        #)
+        # msg.body = "Hey avi, get lost"
+        #msg_viewer.subject = "Loyalty Fox | gift-vouchers Response"
+        # mail.send(msg_viewer)
+
+        # mail_viwer(email,mail_msg)
+        #print("mailed to user.")
+
+    return render_template("digital-marketing.html")
+
+
+# --------------------------------------------------------------------------------
 # Blog page
 # @app.route("/add_blog/", methods=["GET","POST"])
 @app.route("/add_blog", methods=["GET","POST"])
@@ -600,7 +699,7 @@ def add_blog():
         imagename_secure = secure_filename(imagename)
         print(imagename_secure)
 
-        
+
         if file:
             if allowed_file(file.filename):
                 file.save(os.path.join(app.config['UPLOAD_FOLDER'], imagename_secure))
@@ -690,25 +789,25 @@ def admin_login():
         password = request.form.get("password")
 
         user_obj = User.query.filter_by(username=username).first()
-        
+
         if user_obj:
             if(username==user_obj.username and password==user_obj.password):
                 print(user_obj.username)
                 login_user(user_obj)
                 print(current_user)
                 return redirect("/dashboard")
-            
+
             else:
                 err_msg = "Username/Password Incorrect !"
                 flash(err_msg,"error")
-        
+
         else:
             err_msg = "Username/Password Incorrect !"
             flash(err_msg,"error")
 
-    
+
     return render_template("admin_login.html")
-    
+
 
 #logout API
 @app.route("/logout")
