@@ -830,9 +830,9 @@ def sitemap():
 
 # --------------------------------------------------------------------------
 
-@app.errorhandler(404)
-def not_found(e):
-    return redirect("/404")
+# @app.errorhandler(404)
+# def not_found(e):
+#     return redirect("/404")
 
 
 
