@@ -191,7 +191,9 @@ def experiences():
     return render_template("experiences.html")
     #return redirect("/404")
 
-
+@app.route("/digi")
+def ourteam():
+    return render_template("digital-marketing.html")
 #--------------------------------------------------------
 
 # @app.route("/404/")
