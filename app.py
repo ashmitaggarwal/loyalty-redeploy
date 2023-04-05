@@ -844,5 +844,7 @@ if __name__ == "__main__":
     #admin = User(username="Admin",password="Fox@1234")
     #db.session.add(admin)
     #db.session.commit()
+    app.jinja_env.auto_reload = True
+    app.config["TEMPLATES_AUTO_RELOAD"] = True
     app.run(debug=True, port=8000, host="0.0.0.0")
 
